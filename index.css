@@ -13,6 +13,7 @@
     height: 80px;
     background-image: url(./images/wood-bg.png);
     background-repeat: repeat-x;
+    z-index:500;
 }
 .logo img {
     display:block;
@@ -20,4 +21,74 @@
     height: 70%;
     padding-top:15px;
 }
+header {
+    position:fixed;
+    top:80px;
+    left:0;
+    width: 100%;
+    height: 40px;
+    background-color: darkgreen;
+    z-index:500;
 
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+}
+header a {
+    text-decoration: none;
+    color:#fff;
+}
+
+header li {
+    list-style: none;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+    width: 33%;
+    float: left;
+}
+  a:hover{
+    transition: ease-in-out 0.2s;
+    transform: translateY(-5px);
+    color: burlywood;
+}
+
+/*-- MAIN CONTENT -- */
+.main-content {
+    position: relative;
+    margin-top: 120px;
+}
+
+/*-- FOOTER -- */
+footer {
+    position:fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 40px;
+    background-color: forestgreen;
+    z-index:500;
+
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+footer a {
+    text-decoration: none;
+    color:#fff;
+}
+
+footer li {
+    list-style: none;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+    width: 33%;
+    float: left;
+}
