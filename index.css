@@ -61,6 +61,9 @@ header li {
     position: relative;
     margin-top: 120px;
 }
+.main-content img {
+    width: 100%;
+}
 
 /*-- FOOTER -- */
 footer {
