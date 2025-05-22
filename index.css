@@ -81,7 +81,7 @@ header li {
 
 a.info-box{
     text-decoration: none;
-    background: rgb(225, 225, 55, .8);
+    background: rgba(235, 235, 178, 0.8);
     width: 90%;
     height: 90px;
     display: block;
