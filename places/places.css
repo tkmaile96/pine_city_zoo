@@ -130,6 +130,9 @@ a.info-box{
 #info-box-full h3{
     text-align: center;
 }
+ul {
+    list-style: none;
+}
 
 /*-- FOOTER -- */
 footer {
