@@ -1,0 +1,163 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Helvetica, sans-serif;
+}
+
+/*-- HEADER -- */
+.logo{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 80px;
+    background-image: url(../images/wood-bg.png);
+    background-repeat: repeat-x;
+    z-index:500;
+}
+.logo img {
+    display:block;
+    margin: auto;
+    height: 70%;
+    padding-top:15px;
+}
+header {
+    position:fixed;
+    top:80px;
+    left:0;
+    width: 100%;
+    height: 40px;
+    background-color: darkgreen;
+    z-index:500;
+
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+}
+header a {
+    text-decoration: none;
+    color:#fff;
+}
+
+header li {
+    list-style: none;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+    width: 33%;
+    float: left;
+}
+  a:hover{
+    transition: ease-in-out 0.2s;
+    transform: translateY(-5px);
+    color: burlywood;
+}
+
+/*-- MAIN CONTENT -- */
+.main-content {
+    position: relative;
+    margin-top: 120px;
+}
+.main-content img {
+    width: 100%;
+}
+/*--Animals page main content--*/
+#main-content{
+    margin-top: 120px;
+    background: url(../images/map-blur.png);
+    background-repeat: repeat-y;
+}
+/* #main-content  img {
+    width: 100%;
+} */
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+a.info-box{
+    text-decoration: none;
+    background: rgba(235, 235, 178, 0.8);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+}
+
+.info-box img{
+    height: 70px;
+    margin:10px;
+    float:left;
+
+}
+
+.info-box h3{
+    padding:0;
+    margin-bottom:0;
+    width:90%;
+    color:#572800;
+}
+.info-box p{
+    padding:0;
+    margin-bottom:0;
+    width:90%;
+    color:#131313;
+}
+.info-box img.right{
+    float:right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+/*-- Each animal main content --*/
+#info-box-full{
+    background-color: rgba(225, 225, 225, .8);
+    width: 90%;
+    display:block;
+    margin:auto;
+    margin-top:12px;
+    padding:10px;
+}
+#info-box-full img{
+    width: 100%;
+}
+#info-box-full h3{
+    text-align: center;
+}
+
+/*-- FOOTER -- */
+footer {
+    position:fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 40px;
+    background-color: forestgreen;
+    z-index:500;
+
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+footer a {
+    text-decoration: none;
+    color:#fff;
+}
+
+footer li {
+    list-style: none;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+    width: 33%;
+    float: left;
+}
